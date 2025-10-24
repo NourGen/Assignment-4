@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  max-width: 2257px;
+}
+div img {
+  width: 100%;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+span,
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+html {
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+  line-height: 28px;
+}
+.text-center {
+  text-align: center;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+/************************************** navbar-section start  **************************************/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  z-index: 99999999;
+}
+.navbar {
+  background-color: white;
+}
+.navbar ul {
+  display: none;
+}
+.navbar a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.menu a {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  background: orange;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -ms-transition: width 0.5s;
+  -o-transition: width 0.5s;
+}
+.menu a::after {
+  content: "";
+  position: absolute;
+  background: orange;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -ms-transition: width 0.5s;
+  -o-transition: width 0.5s;
+}
+
+
+.bar a:hover::after {
+  width: 100%;
+  background-color: orange;
+}
+.menu a:hover::after {
+  width: 100%;
+  background-color: orange;
+}
+.bar a:hover {
+  color: orange;
+}
+.menu a:hover {
+  color: orange;
+}
+.subscribe {
+  border: 2px solid black;
+  background-color: #ffd15b;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transform-origin: 0% 0%;
+  transition-property: translate;
+  transition-duration: 0.2s;
+  display: none;
+}
+.subscribe:hover {
+  translate: 2px 2px;
+}
+.mobile-menu {
+  /*width: 40px;
+  height: 40px;
+  */
+  font-size: 24px;
+  line-height: 21px;
+  font-weight: 700;
+  transition: translate 0.5s;
+  -webkit-transition: translate 0.5s;
+  -moz-transition: translate 0.5s;
+  -ms-transition: translate 0.5s;
+  -o-transition: translate 0.5s;
+}
+.mobile-menu:hover {
+  translate: 0px -3px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.menu {
+  background-color: white;
+  display: none;
+  width: 35%;
+  height: 100%;
+  border: 3px solid black;
+  opacity: 0;
+  top: 0;
+  right: -35%;
+  transition: opacity 1s, right;
+  -webkit-transition: opacity 1s, right;
+  -moz-transition: opacity 1s, right;
+  -ms-transition: opacity 1s, right;
+  -o-transition: opacity 1s, right;
+  z-index: 99999999999999999;
+}
+.layer {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99999999;
+  backdrop-filter: blur(3px);
+}
+#mobile:checked ~ .layer {
+  display: block;
+}
+label {
+  cursor: pointer;
+}
+#mobile:checked ~ .menu {
+  display: block;
+  opacity: 1;
+  right: 0;
+  /* background-color: tomato; */
+}
+
+/************************************** navbar-section end  **************************************/
+/************************************** hero-section start  **************************************/
+#hero {
+  /* position: relative; */
+  background-color: #fff085;
+  padding: 144px 0 64px;
+  border: 4px solid black;
+  /* height: 100vh; */
+}
+.squares {
+  opacity: 0.1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.square-1 {
+  top: 40px;
+  left: 40px;
+  width: 128px;
+  height: 128px;
+  background-color: black;
+  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+}
+.square-2 {
+  top: 160px;
+  right: 80px;
+  width: 96px;
+  height: 96px;
+  background-color: red;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.square-3 {
+  bottom: -180px;
+  left: 448.984px;
+  width: 112px;
+  height: 112px;
+  background-color: blue;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.hero-caption-side {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.Trend {
+  background-color: black;
+  color: RGB(255, 255, 255);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  box-shadow: 3px 3px 0 black;
+  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+}
+.hero-caption-side h2 {
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 900;
+  text-shadow: 3px 3px #000c;
+}
+.hero-caption-side p {
+  background-color: white;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  box-shadow: 3px 3px black;
+  border: 2px solid black;
+}
+.button-1 {
+  color: white;
+  background-color: black;
+  box-shadow: 4px 5px black;
+  border: 4px solid black;
+  margin-right: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  transform-origin: 0% 0%;
+  transition-property: translate;
+  transition-duration: 0.2s;
+}
+.button-1:hover {
+  translate: 4px 5px;
+}
+.button-2 {
+  color: black;
+  background-color: white;
+  border: 4px solid black;
+  box-shadow: 4px 5px black;
+  margin-right: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  transform-origin: 0% 0%;
+  transition-property: translate;
+  transition-duration: 0.2s;
+}
+.button-2:hover {
+  translate: 4px 5px;
+}
+
+.hero-img-side {
+  width: 100%;
+}
+.hero-img {
+  width: 100%;
+  box-shadow: 4px 5px black;
+  border: 4px solid black;
+  transform-origin: 0% 0%;
+  transition-property: translate;
+  transition-duration: 0.2s;
+  overflow: hidden;
+}
+.hero-img img {
+  transform: scale(120%);
+  -webkit-transform: scale(120%);
+  -moz-transform: scale(120%);
+  -ms-transform: scale(120%);
+  -o-transform: scale(120%);
+}
+.hero-img:hover {
+  translate: 4px 5px;
+}
+
+.featured {
+  background-color: red;
+  color: RGB(255, 255, 255);
+  border: 2px solid black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  box-shadow: 3px 3px 0 black;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+/************************************** hero-section end  **************************************/
+/************************************** latest-articles-section end  **************************************/
+#latest-articles {
+  padding: 70px 0;
+}
+.fresh {
+  background-color: black;
+  color: RGB(255, 255, 255);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  box-shadow: 3px 3px 0 black;
+  transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+}
+#latest-articles h3 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+}
+.new {
+  background-color: red;
+  color: RGB(255, 255, 255);
+  border: 2px solid black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.tech {
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  width: fit-content;
+  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  margin-bottom: 12px;
+  padding-inline: 8px;
+}
+.card {
+  box-shadow: 4px 4px black;
+  transform-origin: 0% 0%;
+  transition-property: translate, color;
+  transition-duration: 0.2s;
+}
+.card:hover {
+  translate: 4px 5px;
+}
+.card:hover h4 {
+  color: red;
+}
+.card-caption-side h4 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.card-caption-side p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-caption-side span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sticky-bar {
+  position: sticky;
+  top: 20px;
+}
+.co-to-red {
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+}
+.co-to-red:hover {
+  color: red;
+}
+.translat-3 {
+  cursor: pointer;
+  transform-origin: 100% 0;
+  transition: translate 0.2s;
+  -webkit-transition: translate 0.2s, background-color 0.5s;
+  -moz-transition: translate 0.2s;
+  -ms-transition: translate 0.2s;
+  -o-transition: translate 0.2s;
+}
+.translat-3:hover {
+  translate: -3px -3px;
+  background-color: yellow;
+}
+/************************************** latest-articles-section end  **************************************/
+/************************************** author-section start  **************************************/
+#authors {
+  background-color: #ffd230;
+  padding: 80px 0;
+  border: 2px solid black;
+}
+.Test {
+  background-color: black;
+  height: 8px;
+  width: 128px;
+  margin-top: 16px;
+  transform: rotate(1.75deg);
+  -webkit-transform: rotate(1.75deg);
+  -moz-transform: rotate(1.75deg);
+  -ms-transform: rotate(1.75deg);
+  -o-transform: rotate(1.75deg);
+}
+.author {
+  background-color: white;
+  border: 3px solid black;
+  padding: 32px;
+  box-shadow: 4px 4px black;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.facebook {
+  border: 10px solid black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  margin-right: 16px;
+  width: 40px;
+}
+.twitter {
+  border: 10px solid black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  margin-right: 16px;
+  width: 40px;
+}
+.instagram {
+  border: 10px solid black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  margin-right: 16px;
+  width: 40px;
+  /* box-shadow: 4px 4px black; */
+}
+.facebook:hover {
+  background-color: blue;
+  border-color: blue;
+  translate: -3px -3px;
+}
+.twitter:hover {
+  background-color: aqua;
+  border-color: aqua;
+  translate: -3px -3px;
+}
+.instagram:hover {
+  background-color: blueviolet;
+  border-color: blueviolet;
+  translate: -3px -3px;
+}
+.author h4 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 900;
+}
+.author:hover h4 {
+  color: red;
+}
+.author:hover {
+  translate: -3px -3px;
+}
+
+.author p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+/************************************** author-section end  **************************************/
+/************************************** community-section start  **************************************/
+#community {
+  padding-block: 80px;
+}
+/************************************** community-section end  **************************************/
+/************************************** footer-section start  **************************************/
+#footer {
+  padding-block: 80px;
+  background-color: black;
+  color: white;
+}
+#footer a {
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+}
+#footer a:hover {
+  color: yellow;
+}
+#footer button {
+  transition: translat 0.2s, color;
+  -webkit-transition: translat 0.2s, color;
+  -moz-transition: translat 0.2s, color;
+  -ms-transition: translat 0.2s, color;
+  -o-transition: translat 0.2s, color;
+}
+#footer button:hover {
+  translate: 3px 3px;
+  background-color: #ca9f00;
+}
+
+/************************************** footer-section end  **************************************/

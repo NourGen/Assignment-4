@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+div img {
+  width: 100%;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+html {
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+  line-height: 28px;
+}
+.text-center {
+  text-align: center;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.fixed{
+    position: fixed;
+}
+
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.fram-border {
+  border: 2px solid black;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.mr-auto {
+  margin: auto;
+}
+/**************************************** start bg-color ****************************************/
+.bg-white {
+  background-color: white;
+}
+/**************************************** end bg-color ****************************************/
+/**************************************** end color ****************************************/
+.co-black {
+  color: black;
+}
+.co-red {
+  color: red;
+}
+.bg-FEF9C2 {
+  background-color: #fef9c2;
+}
+.bg-color-red {
+  background-color: red;
+}
+.bg-color-violet {
+  background-color: violet;
+}
+.bg-color-green {
+  background-color: green;
+}
+.bg-color-white {
+  background-color: white;
+}
+.bg-color-blue {
+  background-color: blue;
+}
+.bg-color-yellow {
+  background-color: yellow;
+}
+.co-white {
+  color: white;
+}
+.co-violet {
+  color: violet;
+}
+.co-blue {
+  color: blue;
+}
+.co-green {
+  color: green;
+}
+/**************************************** end color ****************************************/
+/**************************************** start height ****************************************/
+.h-40px {
+  height: 40px;
+}
+.h-44p {
+  height: 44px;
+}
+.h-64p {
+  height: 64px;
+}
+
+/**************************************** start height ****************************************/
+/**************************************** start width ****************************************/
+.w-40px {
+  width: 40px;
+}
+.w-10 {
+  width: 10%;
+}
+.w-15 {
+  width: 15%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-25 {
+  width: 25%;
+}
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: 33.3333333%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-44p {
+  width: 44px;
+}
+.w-50px {
+  width: 50px;
+}
+.w-64p {
+  width: 64px;
+}
+
+/**************************************** end width ****************************************/
+/**************************************** start font ****************************************/
+.f-s-12 {
+  font-size: 12px;
+}
+.text-lg {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.text-xl {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.text-2xl {
+  font-size: 20px;
+  line-height: 32.5px;
+  font-weight: 600;
+}
+.text-3xl {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 800;
+}
+.text-4xl {
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 900;
+}
+.text-6xl {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+}
+.text-5xl {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 900;
+}
+.text-md {
+  font-size: 21x;
+  line-height: 18px;
+  font-weight: 700;
+}
+.text-sm {
+  font-size: 8حx;
+  /* line-height: 14px; */
+  font-weight: 400;
+}
+/**************************************** end font ****************************************/
+/**************************************** start border ****************************************/
+.bo-1-s-bl {
+  border: 1px solid black;
+}
+.bo-2-s-bl {
+  border: 2px solid black;
+}
+.bo-3-s-bl {
+  border: 3px solid black;
+}
+.bo-4-s-CA9F00 {
+  border: 4px solid #ca9f00;
+}
+.bo-t-4-s-white {
+  border-top: 4px solid white;
+}
+.bo-block-2-s-bl {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/**************************************** end border ****************************************/
+/**************************************** start box-shadow ****************************************/
+.box-shadow-2 {
+  box-shadow: 2px 2px black;
+}
+.box-shadow-3 {
+  box-shadow: 3px 3px black;
+}
+.box-shadow-4 {
+  box-shadow: 4px 4px black;
+}
+.box-shadow-5 {
+  box-shadow: 5px 5px black;
+}
+/**************************************** start box-shadow ****************************************/
+/**************************************** start padding ****************************************/
+.pa-block-12 {
+  padding-block: 12px;
+}
+.pa-inline-24 {
+  padding-inline: 24px;
+}
+.pa-16 {
+  padding: 16px;
+}
+.pa-24 {
+  padding: 25px;
+}
+.pa-32 {
+  padding: 32px;
+}
+.pa-t-32 {
+  padding-top: 32px;
+}
+.pa-40 {
+  padding: 40px;
+}
+.pa-l-24 {
+  padding-left: 24px;
+}
+.pa-inline-16 {
+  padding-inline: 16px;
+}
+.pa-block-4 {
+  padding-block: 4px;
+}
+.pa-block-8 {
+  padding-block: 8px;
+}
+.pa-block-16 {
+  padding-block: 16px;
+}
+.pa-inline-32 {
+  padding-inline: 32px;
+}
+.pa-4 {
+  padding: 4px;
+}
+
+/**************************************** end padding ****************************************/
+/**************************************** star margin ****************************************/
+.mr-l-16 {
+  margin-left: 16px;
+}
+.mr-r-16 {
+  margin-right: 16px;
+}
+.mr-r-32 {
+  margin-right: 32px;
+}
+.mr-b-10 {
+  margin-bottom: 10px;
+}
+.mr-b-14 {
+  margin-bottom: 14px;
+}
+.mr-t-16 {
+  margin-top: 16px;
+}
+.mr-r-21 {
+  margin-right: 21px;
+}
+
+.mr-b-24 {
+  margin-bottom: 24px;
+}
+.mr-b-28 {
+  margin-bottom: 28px;
+}
+.mr-b-32 {
+  margin-bottom: 32px;
+}
+.mr-b-42 {
+  margin-bottom: 42px;
+}
+.mr-b-64 {
+  margin-bottom: 64px;
+}
+/**************************************** end margin ****************************************/
+/**************************************** start flex ****************************************/
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-content-around {
+  align-content: space-around;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+
+/**************************************** end flex ****************************************/
+.max-width {
+  max-width: 2257px;
+}

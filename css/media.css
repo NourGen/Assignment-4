@@ -1,0 +1,150 @@
+/********************************************* sm **********************************************/
+
+@media screen and (min-width: 576px) {
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-33 {
+    width: 33.333333%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-100 {
+    width: 100%;
+  }
+
+  .sm-d-none {
+    display: none;
+  }
+  .sm-d-block {
+    display: block;
+  }
+}
+/********************************************* md **********************************************/
+
+@media screen and (min-width: 768px) {
+  .md-25 {
+    width: 25%;
+  }
+  .md-33 {
+    width: 33.333333%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-100 {
+    width: 100%;
+  }
+  .md-d-none {
+    display: none;
+  }
+  .md-d-block {
+    display: block;
+  }
+}
+/********************************************* lg **********************************************/
+
+@media screen and (min-width: 992px) {
+  .lg-25 {
+    width: 25%;
+  }
+  .lg-30 {
+    width: 30%;
+  }
+  .lg-33 {
+    width: 33.333333%;
+  }
+  .lg-45 {
+    width: 45%;
+  }
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-100 {
+    width: 100%;
+  }
+  .lg-d-none {
+    display: none;
+  }
+  .lg-d-block {
+    display: block;
+  }
+  .lg-d-flex {
+    display: flex;
+  }
+  .lg-flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .lg-justify-content-between {
+    justify-content: space-between;
+  }
+  .hero-img {
+    width: 80%;
+    transform: rotate(5deg);
+  }
+  .hero-caption-side {
+    margin-bottom: 0px;
+  }
+  .lg-mr-0 {
+    margin: 0;
+  }
+}
+/********************************************* xl **********************************************/
+
+@media screen and (min-width: 1200px) {
+  .xl-25 {
+    width: 25%;
+  }
+  .xl-30 {
+    width: 30%;
+  }
+  .xl-33 {
+    width: 33.333333%;
+  }
+  .xl-45 {
+    width: 45%;
+  }
+  .xl-50 {
+    width: 50%;
+  }
+  .xl-60 {
+    width: 60%;
+  }
+  .xl-d-none {
+    display: none;
+  }
+  .xl-d-block {
+    display: block;
+  }
+  .xl-d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/********************************************* xxl **********************************************/
+@media screen and (min-width: 1400px) {
+  .xxl-25 {
+    width: 25%;
+  }
+  .xxl-33 {
+    width: 33.333333%;
+  }
+  .xxl-50 {
+    width: 50%;
+  }
+  .xxl-100 {
+    width: 100%;
+  }
+  .xxl-d-none {
+    display: none;
+  }
+  .xxl-d-block {
+    display: block;
+  }
+
+}

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The UX Review Blog</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/basics.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container pa-16 max-width">
+        <div
+          class="navbar d-flex justify-content-between align-items-center fram-border pa-block-12 pa-inline-24"
+        >
+          <div>
+            <h1>The UX <span style="color: #ff6900">Review</span></h1>
+          </div>
+          <ul class="xxl-d-flex align-items-center bar">
+            <li>
+              <a href="#hero">HOME</a>
+              <i
+                class="fa-solid fa-star mr-l-16 f-s-12"
+                style="color: #ababab"
+              ></i>
+            </li>
+            <li>
+              <a href="#latest-articles">LATEST ARTICLES</a>
+              <i
+                class="fa-solid fa-star mr-l-16 f-s-12"
+                style="color: #ababab"
+              ></i>
+            </li>
+            <li>
+              <a href="#authors">AUTHORS</a>
+              <i
+                class="fa-solid fa-star mr-l-16 f-s-12"
+                style="color: #ababab"
+              ></i>
+            </li>
+            <li><a href="#community">COMMUNITY</a></li>
+          </ul>
+          <div class="side-bar">
+            <label for="mobile">
+              <div
+                class="mobile-menu d-flex align-items-center w-40px h-40px justify-content-center bo-2-s-bl box-shadow-2 bg-white xl-d-none"
+              >
+                <i class="fa-solid fa-bars text-center"></i>
+              </div>
+            </label>
+          </div>
+          <a class="subscribe pa-inline-16 pa-block-8 xl-d-block" href="#"
+            >SUBSCRIBE NOW</a
+          >
+        </div>
+      </div>
+    </header>
+    <input type="checkbox" id="mobile" />
+    <div class="menu fixed">
+      <div class="container pa-16">
+        <div
+          class="bo-block-2-s-bl pa-16 mr-b-24 d-flex justify-content-between align-items-center"
+        >
+          <div class="text-4xl">Menu</div>
+
+          <label for="mobile">
+            <div class="d-flex justify-content-center pa-16 bo-2-s-bl">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </label>
+        </div>
+        <ul
+          class="d-flex flex-col align-items-start justify-content-center text-2xl mr-b-24 "
+        >
+          <li class="mr-b-14">
+            <a href="#hero">HOME</a>
+          </li>
+          <li class="mr-b-14">
+            <a href="#latest-articles">LATEST ARTICLES</a>
+          </li>
+          <li class="mr-b-14">
+            <a href="#authors">AUTHORS</a>
+          </li>
+          <li><a href="#community">COMMUNITY</a></li>
+        </ul>
+        <button
+          class="w-fit pa-16 bg-color-yellow bo-3-s-bl box-shadow-3 text-2xl"
+        >
+          <i class="fa-solid fa-rocket"></i> SUBSCRIBE NOW
+        </button>
+      </div>
+    </div>
+    <div class="layer d-none fixed"></div>
+    <section id="hero" class="">
+      <div class="squares">
+        <div class="absolute square-1"></div>
+        <div class="absolute square-2"></div>
+        <div class="absolute square-3"></div>
+      </div>
+      <div class="container max-width">
+        <div class="d-flex justify-content-between">
+          <div class="hero-caption-side lg-50">
+            <div class="Trend w-25 pa-block-8 pa-inline-16 mr-b-24">
+              <span>🔥 TRENDING NOW</span>
+            </div>
+            <h2>
+              <span style="color: black">BRUTAL</span><br />
+              <span style="color: red">THOUGHTS</span><br />
+              <span style="color: blue">BOLD IDEAS</span>
+            </h2>
+            <p class="pa-16 mr-b-32">
+              Raw, unfiltered content about tech, design, and culture. No
+              sugar-coating, just pure truth that hits different.
+            </p>
+            <div class="hero-buttons d-flex">
+              <button class="button-1 pa-block-16 pa-inline-32 w-40">
+                <i class="fa-solid fa-rocket"></i><span>START READING</span>
+              </button>
+              <button class="button-2 pa-block-16 pa-inline-32 w-40">
+                <i class="fa-solid fa-play"></i><span>WATCH INTRO</span>
+              </button>
+            </div>
+          </div>
+          <div class="hero-img-side lg-45">
+            <div class="relative">
+              <div class="hero-img w-70">
+                <img
+                  src="images/hero-img.png"
+                  alt="abstract brutalist geometric shapes with bold colors, digital art style, high contrast"
+                />
+              </div>
+              <div
+                class="featured w-25 pa-block-8 pa-inline-16 mr-b-24 text-center"
+              >
+                <span>FEATURED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="latest-articles" class="bo-1-s-bl relative">
+      <div class="container d-flex align-items-start justify-content-between">
+        <div class="cards d-flex justify-content-center xl-60 mr-b-14">
+          <div class="d-flex justify-content-between w-100">
+            <h3>LATEST ARTICLES</h3>
+            <div class="fresh w-fit pa-block-8 pa-inline-16 mr-b-24">
+              <span>🔥 FRESH CONTENT</span>
+            </div>
+          </div>
+          <div class="card pa-32 mr-b-32 bo-3-s-bl d-flex">
+            <div class="card-img-side lg-25">
+              <div class="card-img w-20 lg-100 bo-1-s-bl relative">
+                <img
+                  src="images/user-engagement-2.jpg"
+                  alt="bold website design with sharp edges and contrasting colors"
+                />
+                <div class="new w-25 pa-block-4 text-center">
+                  <span>NEW</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-caption-side lg-50 mr-l-16">
+              <div class="tech pa-inline-16 pa-block-4 text-center">TECH</div>
+              <h4 class="mr-b-10">Why Your Website Needs More Edge</h4>
+              <p class="mr-b-14">
+                Exploring the psychological impact of bold, unapologetic design
+                choices on user engagement and brand perception in the digital
+                age.
+              </p>
+              <div class="d-flex">
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-user"></i> BY ALEX BRUTAL</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-calendar"></i> JAN 8, 2025</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-clock"></i> 5 MIN READ</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-heart" style="color: #f00505"></i
+                  >127</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card pa-32 mr-b-32 bo-3-s-bl d-flex">
+            <div class="card-img-side lg-25">
+              <div class="card-img w-20 lg-100 bo-1-s-bl relative">
+                <img
+                  src="images/user-engagement-2.jpg"
+                  alt="bold website design with sharp edges and contrasting colors"
+                />
+                <div class="new w-25 pa-block-4 text-center">
+                  <span>NEW</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-caption-side lg-50 mr-l-16">
+              <div class="tech pa-inline-16 pa-block-4 text-center">TECH</div>
+              <h4 class="mr-b-10">Why Your Website Needs More Edge</h4>
+              <p class="mr-b-14">
+                Exploring the psychological impact of bold, unapologetic design
+                choices on user engagement and brand perception in the digital
+                age.
+              </p>
+              <div class="d-flex">
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-user"></i> BY ALEX BRUTAL</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-calendar"></i> JAN 8, 2025</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-clock"></i> 5 MIN READ</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-heart" style="color: #f00505"></i
+                  >127</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card pa-32 mr-b-32 bo-3-s-bl d-flex">
+            <div class="card-img-side lg-25">
+              <div class="card-img w-20 lg-100 bo-1-s-bl relative">
+                <img
+                  src="images/user-engagement-2.jpg"
+                  alt="bold website design with sharp edges and contrasting colors"
+                />
+                <div class="new w-25 pa-block-4 text-center">
+                  <span>NEW</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-caption-side lg-50 mr-l-16">
+              <div class="tech pa-inline-16 pa-block-4 text-center">TECH</div>
+              <h4 class="mr-b-10">Why Your Website Needs More Edge</h4>
+              <p class="mr-b-14">
+                Exploring the psychological impact of bold, unapologetic design
+                choices on user engagement and brand perception in the digital
+                age.
+              </p>
+              <div class="d-flex">
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-user"></i> BY ALEX BRUTAL</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-calendar"></i> JAN 8, 2025</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-clock"></i> 5 MIN READ</span
+                >
+                <span class="mr-r-21 w-40"
+                  ><i class="fa-solid fa-heart" style="color: #f00505"></i
+                  >127</span
+                >
+              </div>
+            </div>
+          </div>
+          <button class="button-1 pa-block-16 pa-inline-32 w-fit">
+            <i class="fa-solid fa-plus"></i><span>LOAD MORE ARTICLES</span>
+          </button>
+        </div>
+        <div class="sticky-bar w-100 xl-33">
+          <div class="bo-3-s-bl pa-24 mr-b-24 box-shadow-3">
+            <h4 class="text-3xl mr-b-14 w-fit">TRENDING NOW</h4>
+            <div>
+              <div class="d-flex justify-content-start mr-b-14">
+                <span class="text-4xl co-red w-10">01</span>
+                <div>
+                  <h5 class="text-xl co-to-red">The Death of Minimalism</h5>
+                  <p class="mr-t-5 text-sm">12.5K reads • 🔥 Trending</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start mr-b-14">
+                <span class="text-4xl co-red w-10">02</span>
+                <div>
+                  <h5 class="text-xl co-to-red">The Death of Minimalism</h5>
+                  <p class="mr-t-5 text-sm">12.5K reads • 🔥 Trending</p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-center mr-b-14"
+              >
+                <span class="text-4xl co-red w-10">03</span>
+                <div>
+                  <h5 class="text-xl co-to-red">The Death of Minimalism</h5>
+                  <p class="mr-t-5 text-sm">12.5K reads • 🔥 Trending</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bo-3-s-bl pa-24 mr-b-24 box-shadow-3">
+            <h4 class="text-3xl mr-b-14">CATEGORIES</h4>
+            <div>
+              <span
+                class="bo-2-s-bl bg-FEF9C2 w-100 pa-block-8 pa-inline-16 text-md translat-3 mr-b-10"
+                >TECH (24)</span
+              >
+              <span
+                class="bo-2-s-bl bg-FEF9C2 w-100 pa-block-8 pa-inline-16 text-md translat-3 mr-b-10"
+                >DESIGN (18)</span
+              >
+              <span
+                class="bo-2-s-bl bg-FEF9C2 w-100 pa-block-8 pa-inline-16 text-md translat-3 mr-b-10"
+                >CULTURE (15)</span
+              >
+              <span
+                class="bo-2-s-bl bg-FEF9C2 w-100 pa-block-8 pa-inline-16 text-md translat-3 mr-b-10"
+                >OPINION (12)</span
+              >
+              <span
+                class="bo-2-s-bl bg-FEF9C2 w-100 pa-block-8 pa-inline-16 text-md translat-3 mr-b-10"
+                >TUTORIALS (9)</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="authors">
+      <div class="container">
+        <div class="mr-b-64 text-center">
+          <h3 class="text-6xl mr-b-14">MEET THE AUTHORS</h3>
+          <p class="text-xl">The rebels behind the brutal truth</p>
+          <div class="mr-t-16 mr-auto Test"></div>
+        </div>
+        <div
+          class="authors d-flex justify-content-between align-content-around"
+        >
+          <div class="author text-center lg-45 xl-30">
+            <div class="relative mb-6">
+              <img
+                src="images/avatar-1.jpg"
+                alt="Alex Brutal"
+                class="w-30 bo-3-s-bl mr-auto"
+              />
+              <div
+                class="featured w-fit pa-block-8 pa-inline-16 mr-b-24 text-center"
+              >
+                FOUNDER
+              </div>
+            </div>
+            <h4 class="mr-b-10">ALEX BRUTAL</h4>
+            <p class="mr-b-14">Tech Critic & Design Rebel</p>
+            <p class="mr-b-24">
+              Destroying conventional wisdom one article at a time. 10+ years
+              fighting the good fight against boring design and corporate BS.
+            </p>
+            <div>
+              <a href="www.facebook.com">
+                <i class="fa-brands fa-facebook-f facebook"></i
+              ></a>
+              <a href="www.twitter.com">
+                <i class="fa-brands fa-twitter twitter"></i
+              ></a>
+              <a href="www.instagram.com">
+                <i class="fa-brands fa-instagram instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="author text-center lg-45 xl-30">
+            <div class="relative mb-6">
+              <img
+                src="images/avatar-1.jpg"
+                alt="Alex Brutal"
+                class="w-30 bo-3-s-bl mr-auto"
+              />
+              <div
+                class="featured w-fit w-25 pa-block-8 pa-inline-16 mr-b-24 text-center"
+              >
+                FOUNDER
+              </div>
+            </div>
+            <h4 class="mr-b-10">ALEX BRUTAL</h4>
+            <p class="mr-b-14">Tech Critic & Design Rebel</p>
+            <p class="mr-b-24">
+              Destroying conventional wisdom one article at a time. 10+ years
+              fighting the good fight against boring design and corporate BS.
+            </p>
+            <div>
+              <a href="www.facebook.com">
+                <i class="fa-brands fa-facebook-f facebook"></i
+              ></a>
+              <a href="www.twitter.com">
+                <i class="fa-brands fa-twitter twitter"></i
+              ></a>
+              <a href="www.instagram.com">
+                <i class="fa-brands fa-instagram instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="author text-center lg-45 xl-30">
+            <div class="relative mb-6">
+              <img
+                src="images/avatar-1.jpg"
+                alt="Alex Brutal"
+                class="w-30 bo-3-s-bl mr-auto"
+              />
+              <div
+                class="featured w-fit w-25 pa-block-8 pa-inline-16 mr-b-24 text-center"
+              >
+                FOUNDER
+              </div>
+            </div>
+            <h4 class="mr-b-10">ALEX BRUTAL</h4>
+            <p class="mr-b-14">Tech Critic & Design Rebel</p>
+            <p class="mr-b-24">
+              Destroying conventional wisdom one article at a time. 10+ years
+              fighting the good fight against boring design and corporate BS.
+            </p>
+            <div>
+              <a href="www.facebook.com">
+                <i class="fa-brands fa-facebook-f facebook"></i
+              ></a>
+              <a href="www.twitter.com">
+                <i class="fa-brands fa-twitter twitter"></i
+              ></a>
+              <a href="www.instagram.com">
+                <i class="fa-brands fa-instagram instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community">
+      <div class="container">
+        <div class="mr-b-64 text-center">
+          <h3 class="text-6xl mr-b-14">JOIN THE REBELLION</h3>
+          <p class="text-xl">Where rebels gather to change the digital world</p>
+          <div class="mr-t-16 mr-auto Test"></div>
+        </div>
+        <div class="lg-d-flex justify-content-between align-items-center">
+          <div class="lg-50 mr-b-24">
+            <h4 class="mr-b-32 text-5xl">BECOME PART OF SOMETHING BIGGER</h4>
+            <p class="bo-2-s-bl box-shadow-2 text-2xl pa-16 mr-b-32">
+              Join thousands of designers, developers, and digital rebels who
+              are tired of the same old boring content. Our community is where
+              raw ideas meet bold execution and real change happens.
+            </p>
+            <div class="d-flex flex-nowrap align-items-center mr-b-24">
+              <div
+                class="w-44p h-44p co-white bg-color-red bo-2-s-bl mr-r-16 text-center d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <span class="text-lg"
+                >Weekly brutal insights newsletter with exclusive content</span
+              >
+            </div>
+            <div class="d-flex flex-nowrap align-items-center mr-b-24">
+              <div
+                class="w-44p h-44p co-white bg-color-blue bo-2-s-bl mr-r-16 text-center d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-brands fa-discord"></i>
+              </div>
+              <span class="text-lg"
+                >Exclusive community Discord access for real-time
+                discussionss</span
+              >
+            </div>
+            <div class="d-flex flex-nowrap align-items-center mr-b-24">
+              <div
+                class="w-44p h-44p co-white bg-color-violet bo-2-s-bl mr-r-16 text-center d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-lg"
+                >Early access to new articles before they go public</span
+              >
+            </div>
+            <div class="d-flex flex-nowrap align-items-center mr-b-24">
+              <div
+                class="w-44p h-44p co-white bg-color-green bo-2-s-bl mr-r-16 text-center d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-pen"></i>
+              </div>
+              <span class="text-lg"
+                >Submit your own brutal takes and get featured</span
+              >
+            </div>
+            <button class="button-1 pa-block-16 pa-inline-32 w-fit">
+              <i class="fa-solid fa-rocket"></i
+              ><span>JOIN NOW - IT'S FREE</span>
+            </button>
+          </div>
+          <div class="bo-3-s-bl box-shadow-3 pa-40 lg-45">
+            <h5 class="mr-b-32 text-5xl">WHAT REBELS ARE SAYING</h5>
+            <div class="bo-2-s-bl mr-b-32 pa-16 pa-l-24">
+              <p class="text-2xl mr-b-14">
+                "Finally, a blog that tells it like it is. No corporate BS, just
+                pure truth about what's really happening in tech. This is the
+                wake-up call our industry needed."
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="w-50px">
+                  <img
+                    src="images/avatar-4.avif"
+                    alt="Mark T."
+                    class="w-80 bo-2-s-bl"
+                  />
+                </div>
+                <div>
+                  <div class="text-2xl">Mark T.</div>
+                  <div class="text-sm">Senior Designer at Meta</div>
+                </div>
+              </div>
+            </div>
+            <div class="bo-2-s-bl mr-b-32 pa-16 pa-l-24">
+              <p class="text-2xl mr-b-14">
+                "Finally, a blog that tells it like it is. No corporate BS, just
+                pure truth about what's really happening in tech. This is the
+                wake-up call our industry needed."
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="w-50px">
+                  <img
+                    src="images/avatar-4.avif"
+                    alt="Mark T."
+                    class="w-80 bo-2-s-bl"
+                  />
+                </div>
+                <div>
+                  <div class="text-2xl">Mark T.</div>
+                  <div class="text-sm">Senior Designer at Meta</div>
+                </div>
+              </div>
+            </div>
+            <div class="bo-2-s-bl mr-b-32 pa-16 pa-l-24">
+              <p class="text-2xl mr-b-14">
+                "Finally, a blog that tells it like it is. No corporate BS, just
+                pure truth about what's really happening in tech. This is the
+                wake-up call our industry needed."
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="w-50px">
+                  <img
+                    src="images/avatar-4.avif"
+                    alt="Mark T."
+                    class="w-80 bo-2-s-bl"
+                  />
+                </div>
+                <div>
+                  <div class="text-2xl">Mark T.</div>
+                  <div class="text-sm">Senior Designer at Meta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div
+          class="d-flex lg-flex-nowrap justify-content-between align-items-start"
+        >
+          <div class="mr-b-24 lg-33">
+            <div
+              class="d-flex justify-content-start align-items-center mr-b-32 flex-nowrap"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center text-4xl w-64p h-64p bg-color-white mr-r-16"
+              >
+                <i class="fa-solid fa-pen-nib" style="color: black"></i>
+              </div>
+              <h1 class="text-5xl co-white">THE UX REVIEW</h1>
+            </div>
+            <p class="mr-b-32 text-lg co-white">
+              Raw, unfiltered thoughts on tech, design, and digital culture. No
+              compromise, no corporate speak, just brutal truth that matters.
+            </p>
+          </div>
+          <div class="mr-b-24 md-50 lg-25">
+            <h4 class="mr-b-32 text-3xl">CATEGORIES</h4>
+            <ul class="d-flex flex-col justify-content-start">
+              <li class="text-lg mr-b-14"><a href="#">TECH</a></li>
+              <li class="text-lg mr-b-14"><a href="#">DESIGN</a></li>
+              <li class="text-lg mr-b-14"><a href="#">CULTURE</a></li>
+              <li class="text-lg mr-b-14"><a href="#">OPINION</a></li>
+              <li class="text-lg mr-b-14"><a href="#">TUTORIALS</a></li>
+            </ul>
+          </div>
+          <div class="mr-b-24 md-50 lg-30">
+            <h4 class="mr-b-32 text-3xl">NEWSLETTER</h4>
+            <p class="mr-b-24 text-lg">
+              Get brutal insights delivered weekly. No spam, just truth that
+              cuts through the noise.
+            </p>
+            <label for="email">
+              <input
+                type="email"
+                style="background-color: transparent; border: 1px solid white"
+                class="pa-16 w-90 mr-b-14"
+                placeholder="YOUR EMAIL ADDRESS"
+              />
+            </label>
+            <button
+              class="w-80 pa-block-16 bg-color-yellow bo-4-s-CA9F00 text-2xl"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bo-t-4-s-white pa-t-32 d-flex justify-content-center lg-justify-content-between align-items-center"
+        >
+          <p class="mr-b-14 text-md lg-45 lg-mr-0">
+            © 2025 The UX Review. ALL RIGHTS RESERVED. STAY BRUTAL.
+          </p>
+          <div class="lg-45 d-flex flex-nowrap justify-content-end">
+            <a class="text-md mr-r-32 w-fit" href="#">PRIVACY POLICY</a>
+            <a class="text-md mr-r-32 w-fit" href="#">TERMS OF USE</a>
+            <a class="text-md w-fit" href="#">COOKIE POLICY</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
